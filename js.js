@@ -64,3 +64,8 @@ document.getElementById('adicionar').addEventListener('click', function() {
         div.remove();
     });
 });
+
+// Adicionar função de imprimir
+document.getElementById('imprimir').addEventListener('click', function() {
+    window.print();
+});
